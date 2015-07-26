@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/onclick/!svn/ver/42/trunk/onClick/src/com/microstep/android/onclick/rest
+END
+NoteService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/onclick/!svn/ver/50/trunk/onClick/src/com/microstep/android/onclick/rest/NoteService.java
+END
+NoteServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/onclick/!svn/ver/50/trunk/onClick/src/com/microstep/android/onclick/rest/NoteServiceImpl.java
+END
+XmlBeanFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/onclick/!svn/ver/50/trunk/onClick/src/com/microstep/android/onclick/rest/XmlBeanFactory.java
+END

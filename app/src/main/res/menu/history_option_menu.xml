@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_synch"
+          android:title="@string/menu_synch"
+          android:icon="@drawable/ic_menu_synch" />
+    <!-- <item android:id="@+id/option_info"
+          android:title="@string/menu_info"
+          android:icon="@drawable/ic_menu_info_details" />
+    <item android:id="@+id/option_settings"
+          android:title="@string/menu_settings"
+          android:icon="@drawable/ic_menu_preferences" />
+    <item android:id="@+id/option_account"
+          android:title="@string/menu_account"
+          android:icon="@drawable/ic_menu_account" />
+     -->
+</menu>

@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 8
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "com.microstep.onclick"
+        minSdkVersion 8
+        targetSdkVersion 8
+        versionCode 15
+        versionName '1.7.1'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'net.htmlparser.jericho:jericho-html:3.3'
+    compile 'com.google.code.gson:gson:2.3.1'
+}
+
+repositories {
+}

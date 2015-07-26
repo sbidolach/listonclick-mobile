@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/onclick/!svn/ver/44/trunk/onClick/src/com/microstep/android/onclick/adapter
+END
+ProductAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/onclick/!svn/ver/41/trunk/onClick/src/com/microstep/android/onclick/adapter/ProductAdapter.java
+END
+OrganizationAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/onclick/!svn/ver/50/trunk/onClick/src/com/microstep/android/onclick/adapter/OrganizationAdapter.java
+END
+HistoryAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/onclick/!svn/ver/43/trunk/onClick/src/com/microstep/android/onclick/adapter/HistoryAdapter.java
+END
+IconMenuAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/onclick/!svn/ver/41/trunk/onClick/src/com/microstep/android/onclick/adapter/IconMenuAdapter.java
+END

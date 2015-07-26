@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="10dp"
+    android:background="@drawable/bg_shopping_row">    
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.81"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/toptext"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Product name"
+            android:textColor="#5E4934" />                
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/productcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="12dip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="12"
+        android:textColor="#7B7B7B" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="6dip"
+        android:layout_marginLeft="6dip"
+        android:src="@drawable/ic_checkbox_unchecked" />
+    
+    <TextView
+        android:id="@+id/product_label_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="6dip"
+        android:text="-"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/productprice"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="#A3A4A6" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/header_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_title_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.78"
+            android:gravity="left"
+            android:paddingTop="7dp"
+            android:shadowColor="#085C8F"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="3.0"
+            android:text="Info"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingLeft="5dp" />
+
+        <Button
+            android:id="@+id/bn_back"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/ic_bn_top"
+            android:shadowColor="#085C8F"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="3.0"
+            android:text="@string/menu_back"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColorHighlight="#000000"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="-10dp"
+        android:layout_weight="0.70"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="3dp">
+        
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="91dp"
+	        android:layout_gravity="center_horizontal"
+	        android:src="@drawable/logo_microstep" />
+	
+	    <EditText
+	        android:id="@+id/edittext_email"
+	        android:layout_width="match_parent"
+	        android:layout_height="35dp"
+	        android:inputType="textEmailAddress"
+	        android:hint="@string/hint_email"
+	        android:background="@drawable/inputstyle"
+	        android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="6dp"
+            android:padding="3dp" />
+	
+	    <EditText
+	        android:id="@+id/edittext_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="top"
+	        android:layout_weight="9.42"
+	        android:hint="@string/hint_text"
+	        android:inputType="textLongMessage|textMultiLine"
+	        android:singleLine="false"
+	        android:background="@drawable/inputstyle"
+	        android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="6dp"
+            android:padding="3dp" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <Button
+	        android:id="@+id/button_send_email"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/label_send_email" />
+    
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="Ustawienia">
+                 <!--  <CheckBoxPreference
+                        android:title="Czy wyświetlić waluty"
+                        android:defaultValue="true"
+                        android:summary="Waluty są sumowane na liście produktów"
+                        android:key="isCurrencyPref" /> -->
+                <ListPreference
+                        android:title="Waluta"
+                        android:summary="Ustawienie umożliwia wybór waluty"
+                        android:key="currencyPref"
+                        android:defaultValue="zł"
+                        android:entries="@array/currencyArray"
+                        android:entryValues="@array/currencyValues" />
+        </PreferenceCategory>
+</PreferenceScreen>

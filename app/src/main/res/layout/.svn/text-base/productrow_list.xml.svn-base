@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="10dp"
+    android:background="@drawable/bg_shopping_row">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_checkbox_unchecked" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.81"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/toptext"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Product name"
+            android:textColor="#5E4934"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_marginRight="10dp" />                
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="12dip" >
+
+        <TextView
+            android:id="@+id/productcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="12"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7B7B7B"
+            android:textStyle="bold"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/productunit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kg"
+            android:textSize="10dp" />
+        
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/icon_category"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_category_no" />
+    
+</LinearLayout>
